@@ -16,7 +16,7 @@ class RepositoryImpl: Repository {
             delay(500)
           val response= service.getSchoolList()
             emit(UIState.Loading())
-
+///
             if(response.isSuccessful){
                 response.body()?.let{
                     emit(
