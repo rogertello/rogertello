@@ -10,7 +10,7 @@ data class SchoolListResponse(
     var longitude:String
 )
 
-
+ //
 data class SchoolsSatResponse(
     val dbn:String,
     @SerializedName("num_of_sat_test_takers")
